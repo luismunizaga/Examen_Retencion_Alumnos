@@ -24,7 +24,7 @@ El dataset utilizado proviene de un sistema académico institucional y contiene 
 
 ### Distribución de Retención
 
-![Distribución Retención](./cfc21f96-7d82-4ace-ad8b-c5aa63787996.png)
+![Distribución Retención](./DR.png)
 
 Se observa un fuerte desbalance de clases: el 89% de los alumnos están activos (`retención = 1`) y el 11% no (`retención = 0`). Este desbalance afecta la capacidad del modelo para detectar correctamente los casos de deserción.
 
@@ -32,7 +32,7 @@ Se observa un fuerte desbalance de clases: el 89% de los alumnos están activos 
 
 ### Distribución de Edad por Retención
 
-![Edad por Retención]()
+![Edad por Retención](./DER.png)
 
 Los estudiantes entre 18 y 25 años presentan una alta tasa de retención. La deserción es más frecuente en estudiantes mayores de 25 años.
 
@@ -40,7 +40,7 @@ Los estudiantes entre 18 y 25 años presentan una alta tasa de retención. La de
 
 ### Importancia de Variables (Random Forest)
 
-![Importancia de Variables]()
+![Importancia de Variables](./IVR.png)
 
 Según el modelo Random Forest, las variables más importantes para predecir la retención son:
 
